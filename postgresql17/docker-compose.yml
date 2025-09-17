@@ -6,8 +6,9 @@ services:
         environment:
             POSTGRES_USER: pguser
             POSTGRES_PASSWORD: pguser
-            POSTGRES_INITDB_ARGS: "--encoding=UTF8 --locale=en_US.UTF-8 --data-checksums"
+            POSTGRES_INITDB_ARGS: "--encoding=UTF8 --locale=zh_CN.UTF-8 --data-checksums"
         ports:
             - "5432:5432"
         volumes:
-            - /opt/containerd/volume/postgresql17/data:/var/lib/postgresql/data
+            - ./data:/var/lib/postgresql/data
+            - ./conf:/etc/postgresql/conf.d
