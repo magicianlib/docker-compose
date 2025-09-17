@@ -4,6 +4,7 @@ services:
         container_name: mysql_8_0_43
         restart: always
         environment:
+            TZ: Asia/Shanghai
             MYSQL_ROOT_PASSWORD: admin
         ports:
             - "3306:3306"
