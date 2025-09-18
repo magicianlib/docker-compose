@@ -1,0 +1,6 @@
+# MySQL
+mysql80/conf/*
+!mysql80/conf/my.cnf
+
+# PgSQL
+postgresql17/data/*
