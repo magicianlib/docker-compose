@@ -1,4 +1,5 @@
 # MySQL
+mysql80/data/*
 mysql80/conf/*
 !mysql80/conf/my.cnf
 
