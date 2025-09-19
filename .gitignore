@@ -1,3 +1,7 @@
+# Mac
+.DS_Store
+/**/.DS_Store
+
 # MySQL
 mysql80/data/*
 mysql80/conf/*
