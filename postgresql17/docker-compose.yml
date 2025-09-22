@@ -5,6 +5,7 @@ services:
         restart: always
         environment:
             TZ: Asia/Shanghai
+            POSTGRES_DB: db # 自定义默认初始化数据库名
             POSTGRES_USER: pguser
             POSTGRES_PASSWORD: pguser
             POSTGRES_INITDB_ARGS: "--encoding=UTF8 --data-checksums"
